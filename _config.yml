@@ -112,7 +112,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:junhyukyu@likelion.org"
+      #url: "mailto:junhyukyu@likelion.org"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://junstar21.com"

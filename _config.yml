@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -23,7 +23,7 @@ name                     : "Junhyuk Yu"
 description              : "프로페셔널 데이터 사이언티스트를 지향하는 아마추어"
 url                      : "https://junstar21.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "junstar21/junstar21.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -108,11 +108,11 @@ author:
   avatar           :  "https://avatars.githubusercontent.com/u/115910833?v=4"
   bio              : "I will be an **amazing** person."
   location         : "Seoul, South Korea"
-  email            :
+  email            : "junhyukyu@likelion.org"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:junhyukyu@likelion.org"
+       url: "mailto:junhyukyu@likelion.org"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://junstar21.com"
@@ -124,10 +124,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+       url: "https://github.com/junstar21"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/junstar21"
+       url: "https://instagram.com/junstar21"
 
 # Site Footer
 footer:
@@ -139,8 +139,8 @@ footer:
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
-      icon: "https://github.com/junstar21"
-      # url:
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/junstar21"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -149,7 +149,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/junstar21"
+      url: "https://instagram.com/junstar21"
 
 
 # Reading Files
@@ -290,3 +290,15 @@ defaults:
       comments:  true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false

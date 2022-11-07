@@ -1,13 +1,14 @@
 ---
-title: "이 블로그 설명서"
+title: "About Me"
 permalink: /about/
 layout: single
 ---
+## 블로그 목적
+멋쟁이사자처럼 AI School 7기 교육과정생으로써 수업시간에 배운 내용, 진행한 팀/개인 프로젝트를 정리하여 포스팅하는 블로그입니다.
 
-## junstar21.github.io 블로그
+## 이력소개
+* 2021.03 ~ 2021.08 : KITECH
 
-이 블로그는 GitHub Pages 블로그 서비스인 github.io를 같이 만들어보는 샘플 블로그이다.
-
-진짜 블로그인 <https://junstar21.github.io>을 방문해보자.
-이 곳에서 이 샘플 블로그를 같이 만들어보는 GitHub Pages 블로그 따라하기 시리즈의
-모든 글을 볼 수 있다.
+## 학위
+* 2020 : Master of Mechanical Systems Engineering, CAU
+* 2018 : Bachelor of Mechanical Engineering, CAU

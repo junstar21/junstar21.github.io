@@ -3,9 +3,11 @@ title:  "타이타닉 데이터 셋의 파생변수 만들기, One-Hot-Encoding,
 excerpt: "타이타닉 데이터 셋의 머신러닝 연습."
 
 categories:
-  - Blog
+  - TIL
 tags:
-  - Blog
+  - python
+  - EDA
+  - Machine Learning
 last_modified_at: 2022-11-03T08:06:00-05:00
 ---
 

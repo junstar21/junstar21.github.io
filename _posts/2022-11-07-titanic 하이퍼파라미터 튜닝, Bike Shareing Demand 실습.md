@@ -1,6 +1,6 @@
 ---
 title:  "titanic 하이퍼파라미터 튜닝, Bike Shareing Demand 실습"
-excerpt: "지난 시간의 titanic데이터의 하이퍼파라미터 튜닝 후 제출, Bike shareing damand 데이터 뎃 실습."
+excerpt: "2022-11-07 지난 시간의 titanic데이터의 하이퍼파라미터 튜닝 후 제출, Bike shareing damand 데이터 뎃 실습."
 
 categories:
   - TIL
@@ -9,9 +9,12 @@ tags:
   - EDA
   - Learning Machine
   - Hyper Parameter
+spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 ---
+{% include spotifyplaylist.html id=page.spotifyplaylist %}
 
-# 0504에서 이어짐
+
+# [지난 포스팅에서 이어짐](https://junstar21.github.io/til/%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%85%8B%EC%9D%98-%ED%8C%8C%EC%83%9D%EB%B3%80%EC%88%98-%EB%A7%8C%EB%93%A4%EA%B8%B0,-One-Hot-Encoding,-%EA%B2%B0%EC%B8%A1%EC%B9%98-%EB%8C%80%EC%B2%B4,-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A0%81%EC%9A%A9/)
 
 ## 하이퍼파라미터 튜닝 - RandomSearchCV
 

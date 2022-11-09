@@ -10,9 +10,11 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "블로그 방문하기"
-    url: https://junstar21.github.io/
+  # - title: "블로그 방문하기"
+  #   url: https://junstar21.github.io/
   - title: "About"
     url: /about/
   - title: "Categories"
     url: /categories/
+  - title : "Spotify"
+    url : https://open.spotify.com/playlist/2KaQr0nx66AX399ZLLuTVf?si=9cc4e303506549a3

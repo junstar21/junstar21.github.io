@@ -13,7 +13,7 @@ spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 {% include spotifyplaylist.html id=page.spotifyplaylist %}
 
 
-# 지난 포스팅에서 이어짐(수정예정)
+# [지난 포스팅에서 이어짐(수정예정)](https://junstar21.github.io/til/%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%85%8B%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B2%B0%EC%B8%A1%EC%B9%98-%ED%99%95%EC%9D%B8,-%EC%A7%80%EB%8F%84%ED%95%99%EC%8A%B5/)
 
 생성한 파생변수가 Train과 Test에 동일하게 있는지를 확인하기 위해 set 기능을 사용하였다.
 

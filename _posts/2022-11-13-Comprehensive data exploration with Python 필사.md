@@ -4,7 +4,7 @@ excerpt: "2022-11-13 House Price 데이터를 활용한 케글 노트북 필사"
 
 # layout: post
 categories:
-  - 필사
+  - Study
 tags:
   - python
   - EDA
@@ -13,6 +13,7 @@ tags:
   - seaborn
   - matplotlib
   - 회귀
+  - 필사
 spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 ---
 {% include spotifyplaylist.html id=page.spotifyplaylist %}

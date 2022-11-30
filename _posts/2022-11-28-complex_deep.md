@@ -34,7 +34,7 @@ spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 
 ### [ROC curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic)
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-23-benz_complex/Untitled.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-28-complex_deep/Untitled.png)
 
 - $TPR = TP/(TP + FN), FPR = FP/(FP+TN)$
 - Threshold에 따라서 달라지는 TP rate와 FP rate를 표시한 그래프
@@ -43,7 +43,7 @@ spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 
 ### [AUC](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc?hl=ko)
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-23-benz_complex/Untitled 1.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-28-complex_deep/Untitled 1.png)
 
 - AUC(area under curve)는 ROC 커브 아래의 곡면의 넓이를 의미
 - AUC가 넓을수록 더 좋은 머신러닝 모델
@@ -64,7 +64,7 @@ spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 
 ### Under-sampling 과 Over-sampling
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-23-benz_complex/Untitled 2.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-28-complex_deep/Untitled 2.png)
 
 - 출처 : [Resampling strategies for imbalanced datasets | Kaggle](https://www.kaggle.com/code/rafjaa/resampling-strategies-for-imbalanced-datasets/notebook)
 - under-sampling은 더 값이 많은 쪽에서 일부만 샘플링하여 비율을 맞춰주는 방법.
@@ -74,7 +74,7 @@ spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 
 **Over-Sampling**
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-23-benz_complex/Untitled 3.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-28-complex_deep/Untitled 3.png)
 
 - SMOTE는 Synthetic Minority Over-sampling Technique의 약자
 - 적은 값을 늘릴 때, k-근접 이웃의 값을 이용하여 합성된 새로운 값을 추가한다.
@@ -230,7 +230,7 @@ Name: Class, dtype: float64
 sns.countplot(data = df, x = "Class")
 ```
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-23-benz_complex/Untitled 4.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-28-complex_deep/Untitled 4.png)
 
 ## **독립변수(문제)와 종속변수(정답) 분리**
 
@@ -386,7 +386,7 @@ array([[56840,    24],
 sns.heatmap(cf, annot = True, cmap = "Blues")
 ```
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-23-benz_complex/Untitled 5.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-28-complex_deep/Untitled 5.png)
 
 `ConfusionMatrixDisplay` 기능을 사용해서도 시각화를 시도해보도록 한다.
 
@@ -396,7 +396,7 @@ from sklearn.metrics import ConfusionMatrixDisplay
 ConfusionMatrixDisplay(cf).plot()
 ```
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-23-benz_complex/Untitled 6.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-28-complex_deep/Untitled 6.png)
 
 `classification_report`를 사용해서 precision, recall, f1-score을 계산해보도록 한다.
 
@@ -619,7 +619,7 @@ print(recall_score(y_test, y_pred))
 
 ## Model architecture
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-23-benz_complex/Untitled 7.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-28-complex_deep/Untitled 7.png)
 
 - 출처 : [Deep learning on MNIST — NumPy Tutorials](https://numpy.org/numpy-tutorials/content/tutorial-deep-learning-on-mnist.html)
 
@@ -640,7 +640,7 @@ print(recall_score(y_test, y_pred))
 
 ## 활성화 함수 : Sigmoid
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-23-benz_complex/Untitled 8.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-28-complex_deep/Untitled 8.png)
 
 - 출처 : [시그모이드 함수 - 위키백과, 우리 모두의 백과사전 (wikipedia.org)](https://ko.wikipedia.org/wiki/%EC%8B%9C%EA%B7%B8%EB%AA%A8%EC%9D%B4%EB%93%9C_%ED%95%A8%EC%88%98)
 - S자형 곡선을 갖는 수학 함수(ex 로지스틱 함수)
@@ -650,7 +650,7 @@ print(recall_score(y_test, y_pred))
 
 ## 활성화 함수 : tanh - 하이퍼볼릭탄젠트함수*
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-23-benz_complex/Untitled 9.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-11-28-complex_deep/Untitled 9.png)
 
 - 출처 : [쌍곡선 함수 - 위키백과, 우리 모두의 백과사전 (wikipedia.org)](https://ko.wikipedia.org/wiki/%EC%8C%8D%EA%B3%A1%EC%84%A0_%ED%95%A8%EC%88%98)
 - 쌍곡선 함수 중 하나. 시그모이드를 대체할 수 있는 활성화 함수

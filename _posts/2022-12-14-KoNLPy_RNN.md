@@ -1,6 +1,6 @@
 ---
 title: "KoNLPy, RNN"
-excerpt: "2022-12-14 "KoNLPy, RNN"
+excerpt: "2022-12-14 KoNLPy, RNN"
 
 # layout: post
 categories:
@@ -14,7 +14,7 @@ tags:
   - CountVectorizer
 spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 ---
-### ⚠️ 해당 내용은 멋쟁이사자처럼 AI School 오늘코드 박조은 강사의 자료를 토대로 정리한 내용입니다.
+### **⚠️ 해당 내용은 멋쟁이사자처럼 AI School 오늘코드 박조은 강사의 자료를 토대로 정리한 내용입니다.**
 
 ## 라이브러리 로드
 

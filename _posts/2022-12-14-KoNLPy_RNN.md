@@ -16,8 +16,6 @@ spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 ---
 ### ⚠️ 해당 내용은 멋쟁이사자처럼 AI School 오늘코드 박조은 강사의 자료를 토대로 정리한 내용입니다.
 
-# KoNLPy
-
 ## 라이브러리 로드
 
 ```python

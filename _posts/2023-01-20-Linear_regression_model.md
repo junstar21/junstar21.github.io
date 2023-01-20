@@ -1,6 +1,6 @@
 ---
 title: "Linear regression model"
-excerpt: "2023-01-18 Linear regression model"
+excerpt: "2023-01-20 Linear regression model"
 
 # layout: post
 categories:

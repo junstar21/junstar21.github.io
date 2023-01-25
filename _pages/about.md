@@ -57,9 +57,9 @@ layout: single
 
 멋쟁이 사자처럼 AI School
 
-[Streamlit](https://j-jae0-final-project-ais7-webtoon-tvyirp.streamlit.app/)
-
 2022.12.16 ~ 2023.01.05
+
+[Streamlit](https://j-jae0-final-project-ais7-webtoon-tvyirp.streamlit.app/)
 
 - 멋쟁이 사자처럼 AI School 7기 Final Project 주제
 - 네이버 ‘베스트 도전 만화’에 연재되는 만화들의 정식 연재 확률을 계산
@@ -71,9 +71,10 @@ layout: single
 
 멋쟁이 사자처럼 AI School
 
+2022.10.16 ~ 2022.10.24
+
 [Github](https://github.com/junstar21/ais7-mid-4?organization=junstar21&organization=junstar21) l [Streamlit](https://jeaseo-ais7-mid-4-intro-nd7mt1.streamlit.app/)
 
-2022.10.16 ~ 2022.10.24
 
 - 멋쟁이 사자처럼 AI School 7기  Mid Project 주제
 - 소비자물가지수 중 어느 물품이 민감하게 반응하는지 조사하고 그 원인과 결과 확인
@@ -93,9 +94,10 @@ layout: single
 ## 🎓  Education
 ### 멋쟁이사자처럼 AI School
 
-[학습내용](https://junstar21.github.io/categories/#til)
-
 2022.09 ~ 2023.01
+
+[학습내용](https://junstar21.github.io/categories/TIL)
+
 
 - 데이터 분석(EDA), 머신러닝, 딥러닝에 관한 다양한 내용 학습
 - AI와 관련된 내용과 직군에 관심이 생겨 수강

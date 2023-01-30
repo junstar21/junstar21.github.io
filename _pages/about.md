@@ -59,7 +59,7 @@ layout: single
 
 2022.12.16 ~ 2023.01.05
 
-[Streamlit](https://j-jae0-final-project-ais7-webtoon-tvyirp.streamlit.app/)
+[Github](https://github.com/junstar21/AIS7_Final_project) l [Streamlit](https://j-jae0-final-project-ais7-webtoon-tvyirp.streamlit.app/)
 
 - 멋쟁이 사자처럼 AI School 7기 Final Project 주제
 - 네이버 ‘베스트 도전 만화’에 연재되는 만화들의 정식 연재 확률을 계산

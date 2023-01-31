@@ -4,7 +4,7 @@ excerpt: "2023-01-19 Basic python algorithms"
 
 # layout: post
 categories:
-  - Study
+  - Python algorithm interview
 tags:
   - python
 spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16

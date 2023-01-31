@@ -4,7 +4,7 @@ excerpt: "2023-01-30 python data type"
 
 # layout: post
 categories:
-  - Study
+  - Python algorithm interview
 tags:
   - python
   - list
@@ -87,7 +87,7 @@ out:
 
 ### 시퀀스(Sequence)
 
-Sequence는 어떤 특정 대상의 순서 있는 나열을 뜻한다. 파이파이썬에서는 `list`라는 시퀀스 타입이 사실상 배열의 역할을 수행한다. 시퀀스는 값을 변경할 수 없는 불변과 값을 변경할 수 있는 가변으로 나뉘어 진다. 불변에는 `str`, `turple`, `bytes`가 해당된다.
+Sequence는 어떤 특정 대상의 순서 있는 나열을 뜻한다. 파이썬에서는 `list`라는 시퀀스 타입이 사실상 배열의 역할을 수행한다. 시퀀스는 값을 변경할 수 없는 불변과 값을 변경할 수 있는 가변으로 나뉘어 진다. 불변에는 `str`, `turple`, `bytes`가 해당된다.
 
 ```python
 a = 'abc'

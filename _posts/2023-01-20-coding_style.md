@@ -4,7 +4,7 @@ excerpt: "2023-01-20 Coding style"
 
 # layout: post
 categories:
-  - Study
+  - Python algorithm interview
 tags:
   - python
   - Coding style

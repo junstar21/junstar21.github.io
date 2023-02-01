@@ -43,7 +43,7 @@ class Solution:
 
         b = s[::-1] # slice 기법으로 역순으로 string 배열
 
-				return s == b # == 연산자를 통해 True 또는 False를 반환
+		return s == b # == 연산자를 통해 True 또는 False를 반환
 ```
 
 - 풀이 1 : 리스트로 변환
@@ -53,7 +53,7 @@ class Solution:
     def isPalindrome(self, s: str) -> bool:
         strs = []
         for char in s:
-						if char.isalnum(): # 영문자, 숫자 여부 판별 함수
+			if char.isalnum(): # 영문자, 숫자 여부 판별 함수
 	            strs.append(char.lower()) # 알파벳 하나씩 리스트에 추가
 
         # 팰린드롬 여부 판별
@@ -93,7 +93,7 @@ class Solution:
         s = s.lower()
         s = re.sub('[^a-z0-9]', '', s)
 
-				return s == s[::-1]
+		return s == s[::-1]
 ```
 
 **🔠 문자열 슬라이싱**

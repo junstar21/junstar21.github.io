@@ -7,14 +7,13 @@ layout: single
 
 ### Contact
 
-- **Email** | **junhyukyu@gmail.com**
-- **mobile** | **010-3702-5493**
+- **Email** : **junhyukyu@gmail.com**
 
 ### Channel
 
-- **Github** | **[https://github.com/junstar21](https://github.com/junstar21)**
-- **Blog** | **[https://junstar21.github.io](https://junstar21.github.io)**
-- **linkedin** | **[https://linkedin.com/in/junuhyukyu](https://www.linkedin.com/in/junhyukyu/)**
+- **Github** : **[https://github.com/junstar21](https://github.com/junstar21)**
+- **Blog** : **[https://junstar21.github.io](https://junstar21.github.io)**
+- **linkedin** : **[https://linkedin.com/in/junuhyukyu](https://www.linkedin.com/in/junhyukyu/)**
 
 ## 👨‍💻 Data Scientist
 
@@ -27,7 +26,9 @@ layout: single
 ### **Stack Level**
 
 **`상`** : 해당 분야에 능숙하며 자주 사용
-**`중`** : 해당 분야에 대해 알고 있으며 사용
+
+*중* : 해당 분야에 대해 알고 있으며 사용
+
  하  : 해당 분야를 알고 있으며 종종 사용
 ## Language
 
@@ -36,20 +37,20 @@ layout: single
 ## Analytic tool
 
 - **`Pandas`** **`Numpy`**
-- **`Excel`**
+- *Excel*
 
 ## Visualize Tools
 
-- **`Seaborn`** **`matplotlib`** **`Plotly`**
+- **`Seaborn`** **`matplotlib`** *Plotly*
 - OriginLab
 
 ## Model Framework
 
-- **`Sci-kit learn`** **`Tensorflow`**
+- **`Sci-kit learn`** *Tensorflow*
 
 ## Database
 
-- `**MySQL**`
+- *MySQL*
 
 ## Collaboration & Tools
 
@@ -57,11 +58,8 @@ layout: single
 - **`Notion`**
 - **`Discord`**
 
-# 🗜️  Projects
-
----
-
-## 네이버 ‘베스트 도전 만화’의 정식연재 가능여부 확률 예측 프로그램
+## 🗜️  Projects
+### 네이버 ‘베스트 도전 만화’의 정식연재 가능여부 확률 예측 프로그램
 
 2022.12.16 ~ 2023.01.05 / 멋쟁이 사자처럼 AI School
 
@@ -76,9 +74,9 @@ layout: single
 **Tools**
 
 - Crawling : selenium
-- 데이터 정리 : `**pandas` `numpy`**
-- EDA : `**seaborn` `matplotlib`**
-- Model : `**LightGBM**`
+- 데이터 정리 : **`pandas`** **`numpy`**
+- EDA : **`seaborn`** **`matplotlib`**
+- Model : *LightGBM*
 
 **성과**
 
@@ -90,7 +88,7 @@ layout: single
 
 **상세 결과물 Page** : [Github](https://github.com/junstar21/AIS7_Final_project)  [Streamlit](https://j-jae0-final-project-ais7-webtoon-tvyirp.streamlit.app/) 
 
-## 소비자물가지수가 사회에 미치는 영향
+### 소비자물가지수가 사회에 미치는 영향
 
 2022.10.16 ~ 2022.10.24 / 멋쟁이 사자처럼 AI School 
 
@@ -109,8 +107,8 @@ layout: single
 
 **Tools**
 
-- 데이터 정리 : `**pandas` `numpy` `excel`**
-- EDA : `**seaborn` `matplotlib`**
+- 데이터 정리 : **`pandas`** **`numpy`** *`excel`*
+- EDA : **`seaborn`** **`matplotlib`**
 
 **성과**
 
@@ -122,7 +120,7 @@ layout: single
 
 **상세 결과물 Page** : [Streamlit](https://jeaseo-ais7-mid-4-intro-nd7mt1.streamlit.app/) 
 
-## 솔더페이스트 국산화 과제
+### 솔더페이스트 국산화 과제
 
 2021.03.02 ~ 2021.08.31 / 한국생산기술연구원 뿌리기술연구소
 
@@ -143,11 +141,8 @@ layout: single
 - 수용성 솔더페이스트에 대한 자료가 부족하다보니 사용되는 시약의 종류와 비율을 모두 직접 해봐야하는 어려움이 존재
 - 6개월간 노력 끝에 원하는 결과에 가까운 결과물을 만드는 데 성공하였으며 특허 출원 진행 중
 
-# 🎈  Experiences
-
----
-
-## 한국생산기술연구원
+## 🎈  Experiences
+### 한국생산기술연구원
 
 [한국생산기술연구원 | KITECH](https://www.kitech.re.kr/main/)
 2021.03.02 ~ 2021.08.31
@@ -157,11 +152,8 @@ layout: single
     - 딥러닝을 이용하여 솔더 페이스트 프린팅의 분석
     - 레이저 및 플립칩을 이용한 표면처리 기술 연구
 
-# 🎓  Education
-
----
-
-## 멋쟁이사자처럼 AI School
+## 🎓  Education
+### 멋쟁이사자처럼 AI School
 
 [학습내용 : Blog](https://junstar21.github.io/categories/#til)
 
@@ -171,7 +163,7 @@ layout: single
 - AI와 관련된 내용과 직군에 관심이 생겨 수강
 - 학습 내용으로 Kaggle 또는 Dacon 데이터를 활용한 미니프로젝트, 미드 프로젝트, 파이널 프로젝트 진행
 
-## 중앙대학교
+### 중앙대학교
 
 2018.03 ~ 2020.02
 
@@ -179,7 +171,7 @@ layout: single
 - 나노버블과 관련된 다양한 연구 진행
 - 졸업논문 : 이온이 나노버블의 안정성에 미치는 영향
 
-## 서울대학교 반도체공동연구소
+### 서울대학교 반도체공동연구소
 
 2017.07
 
@@ -187,35 +179,29 @@ layout: single
 - 이론 : 반도체 8대 공정에 관한 이론과 최신 동향 학습
 - 실습 : 반도체 공정이 이루어지는 과정을 클린룸에서 실습
 
-## 중앙대학교
+### 중앙대학교
 
 2010.03 ~ 2018.02
 
 - 기계공학부 학사 졸업
 
-# 📖  Papers
-
----
-
-## ****미세피치용 EPIG/DEG 표면처리와 플립칩 접합 계면에서의 NCA 필러트랩 연구****
+## 📖  Papers
+### **미세피치용 EPIG/DEG 표면처리와 플립칩 접합 계면에서의 NCA 필러트랩 연구**
 
 2021.05
 
 - 전자 패키징 기술은 IoT, high-performance computing 및 모바일 전자기기 등 반도체 개발로 인해 소형화 및 고성능이 요구
 - 미세화되는 범프피치를 대응하기 위한 NCA 필러트랩 연구
 
-## 이온이 나노버블의 안정성에 미치는 영향
+### 이온이 나노버블의 안정성에 미치는 영향
 
 2020.02
 
 - 나노버블은 크기가 수 nm ~ 수백 nm로 매우 작고, 동/식물의 생장촉진, 수 질정화, 항산화 효과 등과 같은 특성
 - 이온의 존재는 나노버블의 전기이중층을 약화시키고 버블간의 반발력을 떨어뜨려 안정성을 저하시키는 요인
 
-# 💡 Patent
-
----
-
-## 미세버블 생성 장치
+## 💡 Patent
+### 미세버블 생성 장치
 
 출원번호 : 10-2019-0104697
 
@@ -224,8 +210,7 @@ layout: single
 - 본 발명은 미세버블 생성 장치
 - 유속에 따라 발생하는 압력차이에 의한 기포 생성
 
-## **멤브레인과 초음파를 적용한 
-미세버블 생성장치 및 생성방법**
+### 멤브레인과 초음파를 적용한 미세버블 생성장치 및 생성방법
 
 출원번호 : 10-2019-0069429
 
@@ -235,7 +220,7 @@ layout: single
 - 액체가 보관된 통 속 멤브레인을 통해 기체를 주입하여 기포 생성
 - 기포가 커지기 전에 초음파로 기포를 멤브레인에서 탈착시켜 미세버블 생성
 
-## **에어 서큘레이터**
+### 에어 서큘레이터
 
 출원번호 : 10-2018-0025783
 

@@ -16,7 +16,7 @@ spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 
 리눅스 컨테이너스라는 커널 컨테이너 기술을 이용하여 만든 컨테이너 기술 중 하나. 
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-12-06-CNN_images/Untitled.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2023-03-23-Docker_beginner/Untitled.png)
 
 운영 체제 위에 가상환경을 만들어 독립적인 환경(컨테이너)에서 돌아가는 시스템. 컨테이너를 만들고 그 안에서 환경을 구성하기에 다른 외부 컨테이너에 영향을 끼치지 않아 프로젝트 관리 및 배포와 서버 운용 등에 매우 유용한 기술이다. 
 
@@ -26,7 +26,7 @@ spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 
 # 도커의 구성 요소
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-12-06-CNN_images/Untitled 1.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2023-03-23-Docker_beginner/Untitled 1.png)
 
 - Docker hub : 앱스토어와 비슷한 역할로, 도커의 서버 상에 수많은 이미지들이 저장되어 있다. 원하는 이미지를 검색하고 이를 pull(다운로드)하여 사용할 수 있다.
 - 이미지(image) : 일종의 설치파일 같은 개념이라 볼 수 있다. 어떠한 환경으로 컨테이너를 조성할 것인지에 대한 정보들이 담겨져있다. 이미지가 변경되지 않으면, 한개의 이미지로 수백만의 컨테이너를 만들어도 컨테이너의 내용은 이미지가 설정해놓은대로 생성되기 때문에 동일한 컨테이너를 생성할 수 있다.
@@ -59,7 +59,7 @@ docker images
 
 해당 명령어는 컴퓨터에 어떤 이미지들이 설치되어있는지를 확인하는 명령어이다. 명령어를 입력하면 아래와 같은 출력이 나오게 된다.
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-12-06-CNN_images/Untitled 2.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2023-03-23-Docker_beginner/Untitled 2.png)
 
 가장 마지막 하단의 REPOSITORY를 확인하면 `httpd`가 설치된 것을 확인할 수 있다.
 
@@ -79,7 +79,7 @@ docker run httpd
 docker ps
 ```
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-12-06-CNN_images/Untitled 3.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2023-03-23-Docker_beginner/Untitled 3.png)
 
 이러면 컨테이너의 정보들이 나타나게 된다. 이번에는 새로운 컨테이너를 이름을 붙혀 생성해보도록 하자.
 
@@ -89,7 +89,7 @@ docker run --name ws2 httpd
 
 `—name`은 run 명령어의 옵션을 사용하여 컨테이너에 직접 이름을 붙히는 명령어이다. `—name ws2`는 컨테이너의 이름을 ws2로 지정하겠다는 뜻이다. 다시 컨테이너 확인을 해보기 위해 `docker ps`를 입력해보도록 하자.
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-12-06-CNN_images/Untitled 4.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2023-03-23-Docker_beginner/Untitled 4.png)
 
 ### [`stop`](https://docs.docker.com/engine/reference/commandline/stop/)
 
@@ -166,7 +166,7 @@ docker exec -it ws3 /bin/bash
 
 # 호스트와 컨테이너의 파일 시스템 연결
 
-![]({{ site.url }}{{ site.baseurl }}/assets/images/2022-12-06-CNN_images/Untitled 6.png)
+![]({{ site.url }}{{ site.baseurl }}/assets/images/2023-03-23-Docker_beginner/Untitled 6.png)
 
 지속적으로 컨테이너에 들어가 내부 환경을 수정하는 것은 그리 바람직하지 않다. 컨테이너가 삭제되거나 하면 곤란한 상황이 일어나기 때문이다. 따라서, 이번에는 호스트에서 파일수정을 진행하고 실행은 컨테이너에 맡기는 방법을 알아보도록 하자.
 

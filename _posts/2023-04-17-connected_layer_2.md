@@ -11,6 +11,7 @@ tags:
   - Leet code
 spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 ---
+해당 내용은 '[파이썬 알고리즘 인터뷰](https://product.kyobobook.co.kr/detail/S000001932748)' 책의 일부를 발췌하여 정리한 내용입니다.
 
 ## [역순 연결리스트 ll](https://leetcode.com/problems/reverse-linked-list-ii/)
 

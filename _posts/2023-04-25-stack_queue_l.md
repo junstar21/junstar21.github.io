@@ -1,6 +1,6 @@
 ---
-title: "선형 자료구조 - 스택, 큐 1"
-excerpt: "2023-04-25 Linear Data Structures - Stack, Queue 1"
+title: "선형 자료구조 - 스택, 큐 l"
+excerpt: "2023-04-25 Linear Data Structures - Stack, Queue l"
 
 # layout: post
 categories:

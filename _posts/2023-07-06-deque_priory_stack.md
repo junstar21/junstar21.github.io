@@ -1,5 +1,5 @@
 ---
-title: "데크, 우선순위 큐"
+title: "선형 자료구조 - 데크, 우선순위 큐"
 excerpt: "2023-07-06 Deque, Priory stack"
 
 # layout: post

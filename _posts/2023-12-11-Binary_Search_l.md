@@ -1,6 +1,6 @@
 ---
 title: "알고리즘 - 이진 정렬 l"
-excerpt: "2023-09-25 Algorithm - Bineary Search l"
+excerpt: "2023-12-11 Algorithm - Bineary Search l"
 
 # layout: post
 categories:

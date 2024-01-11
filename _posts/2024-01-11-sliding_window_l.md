@@ -24,10 +24,14 @@ spotifyplaylist: spotify/playlist/2KaQr0nx66AX399ZLLuTVf?si=43a48325c8fc4b16
 ```
 # 괄호 안에 있는 숫자가 윈도우 내에 있는 데이터를 의미한다
 # 투 포인터
-[1, 2, 3, 4, 5] -> 1, [2, 3, 4, 5] -> 1, 2, [3, 4], 5
+[1, 2, 3, 4, 5]
+1, [2, 3, 4, 5]
+1, 2, [3, 4], 5
 
 # 슬라이딩 윈도우
-[1, 3, 4], 2, 5 -> 1, [3, 4, 2], 5 -> 1, 3, [4, 2, 5]
+[1, 3, 4], 2, 5
+1, [3, 4, 2], 5
+1, 3, [4, 2, 5]
 ```
 
 투 포인터는 윈도우 사이즈가 가변적이며, 좌우 포인터가 자유롭게 이동할 수 있으며, 슬라이딩 윈도우는 윈도우 사이즈가 고정이며 좌 또는 우 한방향으로만 이동한다.
@@ -99,7 +103,7 @@ class Solution:
 
 - 풀이: 큐를 이용한 최적화
 
-매번 max를 계산하는 것보다, 새로 들어온 값이 기존 max값 보다 크면 대체하는 방식으로 가면 매번 max() 함수를 사용할 필요가 없어지게 된다. 이는 곧 [선입선출(FIFO)](https://junstar21.github.io/python%20algorithm%20interview/stack_queue_ll/#%ED%81%90)형태로 풀이할 수 있으며, 대표저인 자료형인 큐를 사용하여 다음과 같이 구현한다.
+매번 max를 계산하는 것보다, 새로 들어온 값이 기존 max값 보다 크면 대체하는 방식으로 가면 매번 max() 함수를 사용할 필요가 없어지게 된다. 이는 곧 [선입선출(FIFO)](https://junstar21.github.io/python%20algorithm%20interview/stack_queue_ll/#%ED%81%90)형태로 풀이할 수 있으며, 대표적인 자료형인 큐를 사용하여 다음과 같이 구현한다.
 
 ```python
 class Solution:
@@ -162,7 +166,7 @@ class Solution:
 
 ### [부분 문자열이 포함된 최소 윈도우](https://leetcode.com/problems/minimum-window-substring/)
 
-문자열 S와 T를 입력받아 O(n)에 T의 모든 문자가 포함된 S의 최소 윈도우를 찾아라.
+문자열 s와 t를 입력받아 O(n)에 t의 모든 문자가 포함된 s의 최소 윈도우를 찾아라.
 
 ```
 Input: s = "ADOBECODEBANC", t = "ABC"

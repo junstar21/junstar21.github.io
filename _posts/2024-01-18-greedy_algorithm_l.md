@@ -1,6 +1,6 @@
 ---
-title: "알고리즘 - 그리디 알고리즘l"
-excerpt: "2024-01-18 Greedy Algorithm ll"
+title: "알고리즘 - 그리디 알고리즘 l"
+excerpt: "2024-01-18 Greedy Algorithm l"
 
 # layout: post
 categories:
